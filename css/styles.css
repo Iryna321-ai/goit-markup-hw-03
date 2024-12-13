@@ -247,7 +247,6 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 
 }
 
-
 .team-card-title {
     font-weight: 500;
     font-size: 20px;
@@ -264,8 +263,7 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .portfolio-container {
-    padding: 32px 16px;
-    border: 1px solid #e7e9fc;
+   
 }
 .portfolio-section-title {
     display: flex;
@@ -289,13 +287,12 @@ box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.1
 }
 
 .portfolio-item {
-width: calc((100% - 2*24px)/3);
+width: calc((100% - 48px)/3);
 }
 
 .card-portfolio {
-    padding-top: 32px;
-    padding-left: 16px;
-    padding-bottom: 64px;
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
 }
 .portfolio-card-title {
 font-weight: 500;
